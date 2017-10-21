@@ -1,0 +1,16 @@
+{
+  "name":"U82256MultiComm",
+  "description":"OYO 8256 8226 multi com",
+  "version":"0.1",
+  "manifest_version":2,
+  "app":{
+    "background":{
+      "scripts":["background.js"]
+    }
+  },
+
+  "icons":{
+    "16":"AT16.png",
+    "128":"AT128.png"
+  }
+}
