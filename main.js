@@ -13,6 +13,7 @@ let U1 = [
 for(let i=0;i<4;i++){
   U1[i].con();
 }
+/*
 U1[0].client.on('data',function(data){
   console.log(data);
 });
@@ -28,6 +29,7 @@ U1[2].client.on('data',function(data){
 U1[3].client.on('data',function(data){
   console.log(data);
 });
+*/
 
 function getAnalog(){
   for(let i=0;i<4;i++){
