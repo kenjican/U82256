@@ -14,13 +14,15 @@ class U8256{
     this.dataFoot = Buffer.from('*\r\n');
     this.dataAnalog = '@010140*\r\n';
     this.dataDigital = Buffer.from('@015145*\r\n');
+/*    
     this.client.on('data',function(data){
       this.response += data;
       if (data.slice(-3,).toString() == '*\r\n'){
-        this.parseRes(this.response.slice(this.response.indexOf(this.dataHead),));
+        this.parseRes(this,this.response.slice(this.response.indexOf(this.dataHead),));
       }
       //console.log(data);
     });
+   */
   }
 
   con(){
